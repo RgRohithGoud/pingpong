@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+    font-size: 2vw;
+}
+
+.main {
+    background-color:white;
+    color: black;
+    text-align: center;
+    width: 50%;
+    margin-left:auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top:15%;
+}
+.main h1{
+    font-family: 'Bangers', cursive;
+}
+.box {
+    display: flex;
+    padding: 1.5%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition: 1s ease;
+}
+
+.box button{
+    font-size: 2vw;
+    padding: 0px 100px;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+    background-color: white; 
+}
+
+#data {
+    text-align: center;
+}
+
+#session table, th, td {
+    font-size: 1vw;
+    border: 1px solid black;
+}
+#data table {
+    margin-left:auto;
+    margin-right:  auto;
+}
+
+#button {
+    color: black;
+    background-color:white;
+}

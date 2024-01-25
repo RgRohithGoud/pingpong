@@ -1,0 +1,15 @@
+{
+  "name": "pingpong",
+  "version": "14.10.0",
+  "description": "This is for a ping pong game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Ready\"",
+    "start": "node index.js"
+  },
+  "author": "Rohith Varma Buddaraju",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
